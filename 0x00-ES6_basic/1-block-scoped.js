@@ -4,10 +4,9 @@ export default function taskBlock(trueOrFalse) {
 
   /* conditional block */
   if (trueOrFalse) {
-    const task = true;
-    const task2 = false;
+    const task = true; // eslint-disable-line no-unused-vars
+    const task2 = false; // eslint-disable-line no-unused-vars
   }
-  /* prevent hoisting with const */
 
   return [task, task2];
 }
