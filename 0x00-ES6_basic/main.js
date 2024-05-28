@@ -1,3 +1,3 @@
-import appendToEachArrayValue from './10-loops.js';
+import getSanFranciscoDescription from './6-string-interpolation.js';
 
-console.log(appendToEachArrayValue(['appended', 'fixed', 'displayed'], 'correctly-'));
+console.log(getSanFranciscoDescription());
