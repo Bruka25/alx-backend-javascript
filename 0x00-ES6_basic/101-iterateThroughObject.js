@@ -3,7 +3,7 @@ export default function iterateThroughObject(reportWithIterator) {
   let current;
 
   while ((current = reportWithIterator.next()).done === false) {
-    result += current.value + ' | ';
+    result += `${current.value} | `;
   }
 
   if (result) {

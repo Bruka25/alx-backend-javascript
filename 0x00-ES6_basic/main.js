@@ -1,3 +1,3 @@
-import { taskFirst, taskNext } from "./0-constants.js";
+import appendToEachArrayValue from './10-loops.js';
 
-console.log(`${taskFirst()} ${taskNext()}`);
+console.log(appendToEachArrayValue(['appended', 'fixed', 'displayed'], 'correctly-'));
