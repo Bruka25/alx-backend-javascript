@@ -1,14 +1,9 @@
 export default function iterateThroughObject(reportWithIterator) {
   let result = '';
-  let current;
-
-  while ((current = reportWithIterator.next()).done === false) {
-    result += `${current.value} | `;
+  for (const value of reportWithIterator) {
+    result += `${value} | `;
   }
-
-  if (result) {
-    result = result.slice(0, -2);
-  }
-
+  // Remove the trailing '|'
+  result = result.slice(0, -2);
   return result;
 }
