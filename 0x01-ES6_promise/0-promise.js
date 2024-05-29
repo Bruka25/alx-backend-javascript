@@ -9,7 +9,7 @@ function getResponseFromAPI() {
       } else {
         reject(new Error('failure'));
       }
-    }); // Simulate a 1-second delay for the API call
+    });
   });
 }
 
