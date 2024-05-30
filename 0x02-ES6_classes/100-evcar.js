@@ -10,10 +10,6 @@ class EVCar extends Car {
     return this._range;
   }
 
-  get range() {
-    return this._range;
-  }
-
   set range(value) {
     this._range = value;
   }
@@ -23,8 +19,6 @@ class EVCar extends Car {
 
     return new Species();
   }
-
 }
 
 export default EVCar;
-
