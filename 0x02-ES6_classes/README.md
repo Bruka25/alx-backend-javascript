@@ -56,14 +56,14 @@ The folloiwng javascript codes are for ALX 0x02-ES6_classes for the alx-backend-
 
 * Implement a class named SkyHighBuilding that extends from Building:
 
-
-
+```
      Constructor attributes:
          sqft (Number) (must be assigned to the parent class Building)
          floors (Number)
      Each attribute must be stored in an “underscore” attribute version (ex: name is stored in _name)
      Implement a getter for each attribute
      Override the method named evacuationWarningMessage and return the following string Evacuate slowly the NUMBER_OF_FLOORS floors
+```
 
 * Implement a class named Airport:
 
