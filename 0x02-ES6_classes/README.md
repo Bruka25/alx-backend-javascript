@@ -43,6 +43,7 @@ The folloiwng javascript codes are for ALX 0x02-ES6_classes for the alx-backend-
 * Implement a class named Building:
 
 
+
      Constructor attributes:
          sqft (Number)
      Each attribute must be stored in an “underscore” attribute version (ex: name is stored in _name)
@@ -54,6 +55,7 @@ The folloiwng javascript codes are for ALX 0x02-ES6_classes for the alx-backend-
 
 
 * Implement a class named SkyHighBuilding that extends from Building:
+
 
 
      Constructor attributes:
@@ -73,6 +75,8 @@ The folloiwng javascript codes are for ALX 0x02-ES6_classes for the alx-backend-
       The default string description of the class should return the airport code (example below)
 
 * Implement a class named HolbertonClass:
+
+
 
       Constructor attributes:
           size (Number)
