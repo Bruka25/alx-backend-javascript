@@ -30,7 +30,7 @@ The folloiwng javascript codes are for ALX 0x02-ES6_classes for the alx-backend-
 
 * Implement a class named Pricing:
 
-
+```
       Constructor attributes:
           amount (Number)
           currency (Currency)
@@ -38,12 +38,12 @@ The folloiwng javascript codes are for ALX 0x02-ES6_classes for the alx-backend-
       Implement a getter and setter for each attribute
       Implement a method named displayFullPrice that returns the attributes in the following format amount currency_name (currency_code)
       Implement a static method named convertPrice. It should accept two arguments: amount (Number), conversionRate (Number). The function 
-      should return the amount multiplied by the conversion rate.
+      should return the amount multiplied by the conversion rate
+```
 
 * Implement a class named Building:
 
-
-
+```
      Constructor attributes:
          sqft (Number)
      Each attribute must be stored in an “underscore” attribute version (ex: name is stored in _name)
@@ -52,7 +52,7 @@ The folloiwng javascript codes are for ALX 0x02-ES6_classes for the alx-backend-
      evacuationWarningMessage
      If a class that extends from it does not have a evacuationWarningMessage method, throw an error with the message Class extending 
      Building must override evacuationWarningMessage
-
+```
 
 * Implement a class named SkyHighBuilding that extends from Building:
 
