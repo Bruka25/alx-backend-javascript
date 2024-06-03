@@ -1,6 +1,6 @@
 function cleanSet(set, startString) {
   let result = '';
-  if (!set || !startString) {
+  if (!set || !startString || !(set instanceof Set) || typeof startString !== 'string') {
     return '';
   }
   for (const value of set) {
