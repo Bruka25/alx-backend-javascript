@@ -11,7 +11,7 @@ app.get('/', (req, res) => {
 
 // Start the server and listen on the specified port and host
 app.listen(port, host, () => {
-  console.log(`Server is live, running at http://${host}:${port}`);
+  console.log(`Server is running at http://${host}:${port}`);
 });
 
 // Export the Express application for use in other modules
