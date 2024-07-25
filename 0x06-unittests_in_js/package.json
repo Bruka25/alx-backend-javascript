@@ -1,0 +1,15 @@
+{
+  "name": "0x06-unittests_in_js",
+  "version": "1.0.0",
+  "description": "The following codes are for ALX 0x06-unittests_in_js project inside the alx-backend-javascript curriculum, inside it contains the following codes:",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^10.7.0"
+  }
+}
